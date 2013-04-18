@@ -1,0 +1,68 @@
+body {
+	margin: 0px
+}
+
+header {
+	background-image: url('http://rachelcperry.com/coffeebeans.png');
+	height: 279px;
+	width: 1022px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: fixed;
+}
+
+nav {
+	background-color: #230b03;
+	line-height: 35px;
+	margin-top: 230px;
+	text-align: center;
+	word-spacing: 20px;
+	vertical-align: -35px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	font-family: Garamond, serif;
+	font-size: 14pt;
+	color: #958168;
+}
+
+.blog{
+	float: left;
+	margin-top: 300px;
+	margin-left: 120px;
+	margin-right: 120px;
+	width: 802px;
+
+}
+
+.blog section {
+	float: left;
+	width: 50%
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 14pt;
+	color: #4c3628;
+	text-align: center;
+}
+
+p {
+	font-family: Garamond, serif;
+	text-align: center;
+}
+
+footer {
+	background-color: #230b03;
+	clear: both;
+	width: 1022px;
+	font-family: Garamond, serif;
+	color: #958168;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 12pt;
+}
+
