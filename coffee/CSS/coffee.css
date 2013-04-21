@@ -2,23 +2,34 @@ body {
 	margin: 0px
 }
 
-header {
-	background-image: url('http://rachelcperry.com/coffeebeans.png');
-	height: 279px;
-	width: 1022px;
-	margin-top: 0px;
-	margin-left: 0px;
-	position: fixed;
+.beans {
+	height: 280px;
+	width: 1024px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 
-nav {
+.logo {
+	position: relative;
+	left: 450px;
+}
+
+.navigation {
+	width: 984px;
 	background-color: #230b03;
 	line-height: 35px;
-	margin-top: 230px;
-	text-align: center;
+	margin-top: 50px;
 	word-spacing: 20px;
-	vertical-align: -35px;
 	font-weight: bold;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.navigation li{
+	display: inline-block;
+	vertical-align: bottom;
 }
 
 a {
@@ -28,9 +39,27 @@ a {
 	color: #958168;
 }
 
-.blog{
+.google {
+	color: #000000;
+	text-decoration: none;
+	font-family: Garamond, serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.email {
+	color: #000000;
+	font-size: 12pt;
+	text-decoration: none;
+	font-family: Garamond, serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+.blog {
 	float: left;
-	margin-top: 300px;
+	margin-top: 15px;
 	margin-left: 120px;
 	margin-right: 120px;
 	width: 802px;
@@ -54,6 +83,12 @@ p {
 	text-align: center;
 }
 
+.address {
+	font-family: Garamond, serif;
+	text-align: left;
+	font-size: 12pt;
+}
+
 footer {
 	background-color: #230b03;
 	clear: both;
@@ -66,3 +101,41 @@ footer {
 	font-size: 12pt;
 }
 
+.image {
+	float: left;
+	font-weight: bold;
+}
+
+.image .coffee-shop {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.image .coffee-shop-2 {
+	display: inline;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.image .coffee-shop-music {
+	display: inline;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.image .fair-trade {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.image .tea {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.contact {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 500px;
+}

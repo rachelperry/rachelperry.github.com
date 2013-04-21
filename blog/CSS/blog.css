@@ -4,42 +4,29 @@ body {
 	padding-right: 400px;
 }
 
-h1 {
-	font-family: 'Oswald', Verdana, sans-serif;
-	text-transform: uppercase;
-	font-size: 50px;
-	margin-top: 2px;
-	display: inline-block;
-	margin-bottom: 0px;
-}
-
-nav {
-	font-weight: bold;
-	word-spacing: 2px;
-	display: inline;
-	float: right;
-	vertical-align: bottom;
-}
-
 header {
 	line-height: 50px;
 	height: 50px;
-
 }
 
 hr {
 	width: 100%;
-		
+	margin-top: 40px;
+	position: relative;		
 }
 
+.header {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	vertical-align: bottom;
+}
 
 .navigation {
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
 	font-size: 10pt;
 	float: right;
-	margin-bottom: 0px;
-
+	margin-top: 53px;
 }
 
 .navigation li {
@@ -63,6 +50,10 @@ h2 {
 	margin-bottom: 10px;
 }
 
+.post{ 
+	margin-bottom: 20px;
+}
+
 p {
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
@@ -81,21 +72,36 @@ p {
 .sidebar {
 	width: 25%;
 	float: left;
-	height: 50%;
+	height: 100%;
 
 }
 
 .copyright {
-	font-family: Helvetica; sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 }
 
 a {
 	text-decoration: none;
-	font-family: Helvetica; sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	color: #000000;
 	font-weight: bold;
+}
+
+ol{
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.contact{
+	list-style-type: none;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-top: 5px;
+	padding: 0px;
 }
 
