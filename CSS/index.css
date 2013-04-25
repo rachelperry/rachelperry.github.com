@@ -2,9 +2,6 @@ body {
 	background-image: url('http://3.bp.blogspot.com/-XrlO63uCqeo/TcGpiK17yaI/AAAAAAAAAgU/IGjRqfD1gH0/s1600/Blue-Chevron.png');
  	background-repeat:repeat;
 	font-family: Tahoma, Geneva, sans-serif;
-	-webkit-animation: spin 5s linear;
-    animation: spin 5s linear;
-    /* April Fool's! */
 	
 	}
 	
