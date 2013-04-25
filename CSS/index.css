@@ -1,0 +1,55 @@
+body {
+	background-image: url('http://3.bp.blogspot.com/-XrlO63uCqeo/TcGpiK17yaI/AAAAAAAAAgU/IGjRqfD1gH0/s1600/Blue-Chevron.png');
+ 	background-repeat:repeat;
+	font-family: Tahoma, Geneva, sans-serif;
+	-webkit-animation: spin 5s linear;
+    animation: spin 5s linear;
+    /* April Fool's! */
+	
+	}
+	
+div {
+	background-color: #CCCCCC;
+  	line-height: 2;
+	padding: 5%;
+  	margin: 5%;
+  
+	}
+
+h1 {
+  	border: 2px solid #000000;
+	color: #000000;
+	font-family: 'Special Elite', cursive;
+	font-size: 20pt;
+  	text-align: center;
+    
+	}
+	
+p {
+	color: #000000;
+	font-size: 14pt;
+	
+	}
+
+#profile {
+	width: 200px;
+	height: 20opx;
+ 	float: left;
+ 	padding: 15px 15px 0px 0px
+ 
+	}
+
+@-webkit-keyframes spin {
+  0%   { -webkit-transform: rotate(0deg); }
+  100%   { -webkit-transform: rotate(360deg); }
+	}
+
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100%   { transform: rotate(360deg); }
+	}
+	
+@-moz-keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100%   { transform: rotate(360deg); }
+	}	
