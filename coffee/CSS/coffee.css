@@ -16,6 +16,7 @@ body {
 }
 
 .navigation {
+	padding-left: 0px;
 	width: 984px;
 	background-color: #230b03;
 	line-height: 35px;
@@ -58,17 +59,25 @@ a {
 }
 
 .blog {
-	float: left;
 	margin-top: 15px;
-	margin-left: 120px;
-	margin-right: 120px;
-	width: 802px;
+	margin-left:68px;
+	width: 75%;
 
 }
 
 .blog section {
-	float: left;
-	width: 50%
+
+	width: 45%;
+	padding: 20px;
+	float: left; 
+	display: inline-block;
+}
+
+.blog section p {
+
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: -11px;
 }
 
 h2 {
