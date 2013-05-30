@@ -86,8 +86,12 @@ hr {
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
 	font-size: 1em;
-	float: right;
-	margin-top: 7%;
+	/* float: right; */
+	position: absolute;
+	top: 18%;
+	right: 0%;
+	min-width: 200px;
+	margin-top: 0%;
 	padding: 0%;
 	margin-bottom: 0%;
 }
@@ -96,8 +100,6 @@ hr {
 	display: inline-block;
 	vertical-align: bottom;
 	padding-left: 1%;
-
-
 
 }
 
@@ -109,6 +111,7 @@ h1 {
 	padding: 0%;
 	margin-top: 2%;
 	margin-bottom: 0%;
+	line-height: 50px;
 }
 	
 
@@ -154,7 +157,7 @@ p {
 
 .copyright {
 	font-family: Helvetica, sans-serif;
-	font-size: 1em;
+	font-size: .75em;
 	font-weight: bold;
 }
 
@@ -181,3 +184,6 @@ ol {
 	padding: 0%;
 }
 
+@media screen and (max-width: 438px) {
+	.navigation {position: inherit;}
+}
